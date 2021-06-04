@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{544bd29f-4c3a-426f-a5ff-43d203dbb261}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -63,8 +63,5 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="S_AddToCategory.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Exo_Recap_1.publish.xml" />
   </ItemGroup>
 </Project>
