@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Exo_Recap_1", "Exo_Recap_1.sqlproj", "{544BD29F-4C3A-426F-A5FF-43D203DBB261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo_Recap_1_Console", "..\Exo_Recap_1_Console\Exo_Recap_1_Console.csproj", "{CB7E8798-7DF8-49D2-8477-07207F1A64A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo_Recap_1_Console", "..\Exo_Recap_1_Console\Exo_Recap_1_Console.csproj", "{CB7E8798-7DF8-49D2-8477-07207F1A64A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
