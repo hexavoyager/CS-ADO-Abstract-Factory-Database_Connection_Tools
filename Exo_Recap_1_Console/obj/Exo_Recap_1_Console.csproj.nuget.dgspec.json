@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ninoa\\Desktop\\.NET\\LABO1\\Exo_Recap_1\\Exo_Recap_1_Console\\Exo_Recap_1_Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ninoa\\Desktop\\.NET\\LABO1\\Exo_Recap_1\\Exo_Recap_1_Console\\Exo_Recap_1_Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ninoa\\Desktop\\.NET\\LABO1\\Exo_Recap_1\\Exo_Recap_1_Console\\Exo_Recap_1_Console.csproj",
+        "projectName": "Exo_Recap_1_Console",
+        "projectPath": "C:\\Users\\ninoa\\Desktop\\.NET\\LABO1\\Exo_Recap_1\\Exo_Recap_1_Console\\Exo_Recap_1_Console.csproj",
+        "packagesPath": "C:\\Users\\ninoa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ninoa\\Desktop\\.NET\\LABO1\\Exo_Recap_1\\Exo_Recap_1_Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ninoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Nuget Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "Tools.Connections.Database": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
