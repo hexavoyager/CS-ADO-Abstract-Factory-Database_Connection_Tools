@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tools.Connections.Database;
 
-namespace Exo_Recap_1_Console
+namespace Exo_Recap_1_Console.Global.Repositories
 {
     interface ICategoriesRepository 
     {

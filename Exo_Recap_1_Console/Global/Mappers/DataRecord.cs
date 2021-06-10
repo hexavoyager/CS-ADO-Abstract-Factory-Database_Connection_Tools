@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Exo_Recap_1_Console.Global.Data;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exo_Recap_1_Console
+namespace Exo_Recap_1_Console.Global.Mappers
 {
 
     public static class DataRecord 

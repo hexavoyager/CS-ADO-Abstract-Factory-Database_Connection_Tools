@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exo_Recap_1_Console
+namespace Exo_Recap_1_Console.Global.Data
 {
     public class Category
     {

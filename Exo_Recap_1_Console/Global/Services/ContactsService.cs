@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Exo_Recap_1_Console.Global.Data;
+using Exo_Recap_1_Console.Global.Mappers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tools.Connections.Database;
 
-namespace Exo_Recap_1_Console
+namespace Exo_Recap_1_Console.Global.Services
 {
     public class ContactsService
     {

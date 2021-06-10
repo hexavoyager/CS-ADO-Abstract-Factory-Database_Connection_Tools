@@ -7,15 +7,11 @@ using Tools.Connections.Database;
 
 namespace Exo_Recap_1_Console
 {
-    interface IContactRepository
+    interface GICategoriesRepository 
     {
-        void ContactsService();
+        void CategoriesService();
         void Get();
-        void GetByCategory();
         void Get(int id);
         void Insert();
-        void Update();
-        void Delete();
-
     }
 }

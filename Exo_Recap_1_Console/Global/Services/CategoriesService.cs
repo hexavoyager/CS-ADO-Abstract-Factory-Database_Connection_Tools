@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Exo_Recap_1_Console.Global.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tools.Connections.Database;
+using Exo_Recap_1_Console.Global.Mappers;
 
-namespace Exo_Recap_1_Console
+namespace Exo_Recap_1_Console.Global.Services
 {
     public class CategoriesService
     {

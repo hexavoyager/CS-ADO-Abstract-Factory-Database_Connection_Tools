@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using C = Exo_Recap_1_Console.Client.Data;
+using Exo_Recap_1_Console.Client.Data;
+using G = Exo_Recap_1_Console.Global.Data;
 
 namespace Exo_Recap_1_Console.Client.Mappers
 {
     static class Mappers
     {
-        internal static C.Contact ToClient(this Contact contact)
+        internal static Contact ToClient(this G.Contact contact)
         {
-            return new C.Contact(contact.Id, contact.LastName, contact.FirstName, contact.Email, contact.IdCategory);
+            return new Contact(contact.Id, contact.LastName, contact.FirstName, contact.Email, contact.IdCategory);
         }
-        internal static Contact ToGlobal(this C.Contact contact)
+        internal static G.Contact ToGlobal(this Contact contact)
         {
-            return new Contact()
+            return new G.Contact()
             {
                 Id = contact.Id,
                 LastName = contact.LastName,
@@ -24,13 +25,13 @@ namespace Exo_Recap_1_Console.Client.Mappers
                 IdCategory = contact.IdCategory
             };
         }
-        internal static C.Category ToClient(this Category category)
+        internal static Category ToClient(this G.Category category)
         {
-            return new C.Category(category.Id, category.Name);
+            return new Category(category.Id, category.Name);
         }
-        internal static Category ToGlobal(C.Category category)
+        internal static G.Category ToGlobal(this Category category)
         {
-            return new Category()
+            return new G.Category()
             {
                 Id = category.Id,
                 Name = category.Name
